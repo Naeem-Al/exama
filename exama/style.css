@@ -1,0 +1,149 @@
+.image{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(5, 209, 141, 0.775);
+    float: left;
+    margin: 5px;
+    display: flex;
+    margin: 0 auto;
+
+}
+.image:hover{
+    border: 1px solid #777;
+}
+.a{
+    width: 600px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 13px;
+    margin: 10px;
+    background-image: url("./img/1.jpg");
+
+
+} 
+.b{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 13px;
+    margin: 10px;
+    background-image: url("./img/2.webp");
+
+}
+ 
+.c{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 13px;
+    margin: 10px;
+    background-image: url("./img/3.jfif");
+
+} 
+.d{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 13px;
+    margin: 10px;
+    background-image: url("./img/4.jfif");
+
+} 
+.e{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 13px;
+    margin: 10px;
+    background-image: url("./img/5.jpeg");
+ 
+}
+.aa{
+    width: 720px;
+    height: 320px;
+    background-color: blue;
+}
+
+/* .a, .b, .c, .d, .e,:hover{
+    transform: scale(1.03);
+} */
+.a p{
+    display: none;
+
+}
+.a:hover p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+
+
+}
+
+.b p{
+    display: none;
+}
+.b:hover p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(248, 0, 0);
+    font-weight: 900;
+
+}
+.c p{
+    display: none;
+}
+.c:hover p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 6, 171);
+    font-weight: 900;
+
+
+}
+.d p{
+    display: none;
+
+}
+.d:hover p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 161, 248);
+    font-weight: 900;
+
+
+}
+
+.e p{
+    display: none;
+
+}
+.e:hover p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(74, 248, 0);
+    font-weight: 900;
+
+
+}
+@media only screen and (max-width:540px){
+
+    .image{
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+    .a, .b, .c, .d, .e{
+        width: 50%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+}
+}
+
+
